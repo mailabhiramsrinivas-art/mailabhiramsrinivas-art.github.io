@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Site — Minimal Theme</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="site-bg">
+    <header class="site-topbar">
+      <div class="container topbar-inner">
+        <div class="brand">Your Site</div>
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Notes</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="stage">
+      <section class="card">
+        <div class="card-header">
+          <h1 class="card-title">Welcome</h1>
+          <p class="card-sub">A clean, slide-style theme (colors only). Replace this text with your content.</p>
+        </div>
+
+        <div class="card-body">
+          <p>Use this area for your landing content, links to pages, or a listing of notes/projects. This template intentionally contains no copied slide content — it ships only the look & feel.</p>
+
+          <ul class="feature-list">
+            <li>Dark charcoal content card</li>
+            <li>Burnt orange accent bars and bullets</li>
+            <li>Responsive and easy to customize</li>
+          </ul>
+        </div>
+
+        <footer class="card-footer">
+          <div class="left">Your Name</div>
+          <div class="center">Project / Repo</div>
+          <div class="right">© <span id="year"></span></div>
+        </footer>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">Published with GitHub Pages.</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
